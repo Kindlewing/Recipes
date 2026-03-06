@@ -1,0 +1,24 @@
+[data-theme="macchiato"] {
+  /* Base */
+  --background: #24273a;
+  --pane:       #1e2030;
+  --surface:    #363a4f;
+  --border:     #494d64;
+  --overlay:    #6e738d;
+
+  /* Text */
+  --text:       #cad3f5;
+  --subtext:    #b8c0e0;
+  --muted:      #a5adcb;
+
+  /* Accent */
+  --accent:     #8aadf4;
+  --primary:    #c6a0f6;
+  --secondary:  #b7bdf8;
+
+  /* Semantic */
+  --success:    #a6da95;
+  --warning:    #eed49f;
+  --error:      #ed8796;
+  --info:       #91d7e3;
+}
