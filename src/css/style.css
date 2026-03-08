@@ -1,9 +1,45 @@
 @import "reset.css";
 @import "theme.css";
 @import "button.css";
-@import "recipe.css";
 
 body {
-	background-color: var(--background);
-	color: var(--text);
+  background-color: var(--background);
+  color: var(--text);
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main";
+  grid-template-rows: auto 1fr;
+  min-height: 100dvh;
+}
+
+body > header {
+  grid-area: header;
+}
+
+.home {
+  display: grid;
+  grid-area: main;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.recipe {
+  font-size: 0.925rem;
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  padding: 1.125rem;
+  display: grid;
+  grid-template-areas:
+    "title"
+    "description";
+}
+
+.recipe__title {
+  grid-area: title;
+}
+.recipe__subtitle {
+  grid-area: description;
 }
