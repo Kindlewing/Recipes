@@ -1,23 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<script>
-			const t = localStorage.getItem("theme");
-			if (t) document.documentElement.dataset.theme = t;
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link href="css/style.css" rel="stylesheet">
+		<script type="module" 
+			src="https://cdn.jsdelivr.net/gh/starfederation/
+				datastar@1.0.0-RC.8/bundles/datastar.js">
 		</script>
-		<script
-			type="module"
-			src="https://cdn.jsdelivr.net/gh/starfederation/datastar@1.0.0-RC.8/bundles/datastar.js"
-		></script>
-		<link rel="stylesheet" href="css/style.css" />
-		<title>Recipes</title>
 	</head>
 	<body>
-		<header>
-			<h1>Recipes</h1>
-		</header>
-		<main class="home" id="recipes" data-init="@get('http://localhost:8000/all')"></main>
+		<main>
+
+		</main>
 	</body>
 </html>
