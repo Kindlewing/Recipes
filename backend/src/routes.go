@@ -2,14 +2,12 @@ package main
 
 import (
 	"net/http"
-
-	"github.com/labstack/echo/v5"
 )
 
-func index(ctx *echo.Context) error {
-	return ctx.String(http.StatusOK, "Hello, World!")
+func index(writer http.ResponseWriter, request *http.Request) {
+
 }
 
-func registerRoutes(echo *echo.Echo) {
-	echo.GET("/", index)
+func registerRoutes(mux *http.ServeMux) {
+	mux.HandleFunc("/", index)
 }
