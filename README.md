@@ -1,2 +1,2 @@
 # Recipes
-A Recipe site writting with HTML, CSS, and the Datastar framework
+A Recipe site written with HTML, CSS, and the Datastar framework

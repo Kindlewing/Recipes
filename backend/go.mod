@@ -2,8 +2,6 @@ module recipes_api
 
 go 1.26.1
 
-require github.com/labstack/echo/v5 v5.0.4
-
 require (
 	filippo.io/edwards25519 v1.2.0 // indirect
 	github.com/go-sql-driver/mysql v1.9.3 // indirect
