@@ -1,4 +1,8 @@
 package main
 
-type Database struct {
+import (
+	_ "github.com/go-sql-driver/mysql"
+)
+
+func getAllRecipes() {
 }

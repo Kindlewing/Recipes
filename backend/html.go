@@ -25,5 +25,5 @@ func recipeCard(w io.Writer, recipe *Recipe) {
 		</article>`,
 		recipe.id, recipe.title, recipe.desc,
 	)
-	slog.Debug("recipeCard rendered", "id", recipe.id, "duration", time.Since(start))
+	slog.Debug("recipe card generated ", "id: ", recipe.id, "duration: ", time.Since(start))
 }

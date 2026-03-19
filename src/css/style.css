@@ -1,3 +1,11 @@
-.home {
+@import "reset.css";
+
+body {
   background-color: #11111b;
+}
+
+.recipe_book {
+  background-image: url("../../assets/paper_light.png");
+  min-height: 75%;
+  max-width: 75%;
 }
